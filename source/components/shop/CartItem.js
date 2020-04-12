@@ -9,7 +9,7 @@ import {
 import { Icon } from 'react-native-vector-icons/Ionicons';
 
 const CartItem = props => {
-  console.log('propsCartItem', props)
+  console.log('propsCartItem ', props)
   return (
     <View style={styles.cartItem}>
       <View style={styles.itemData}>
